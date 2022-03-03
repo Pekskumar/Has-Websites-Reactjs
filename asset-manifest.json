@@ -1,0 +1,12 @@
+{
+  "files": {
+    "main.css": "/Has-Websites-Reactjs/static/css/main.31d6cfe0.css",
+    "main.js": "/Has-Websites-Reactjs/static/js/main.72717d2a.js",
+    "index.html": "/Has-Websites-Reactjs/index.html",
+    "main.72717d2a.js.map": "/Has-Websites-Reactjs/static/js/main.72717d2a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.31d6cfe0.css",
+    "static/js/main.72717d2a.js"
+  ]
+}
