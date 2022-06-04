@@ -731,7 +731,7 @@ td{text-align: left; font-weight: normal;}
     -webkit-text-fill-color: transparent;
     color: transparent;}
 .count-happy{width: 25%;}
-.count-happy h2{position: relative;padding-top: 28px;margin-bottom: 32px;font-weight: 400;}
+.count-happy h2{position: relative;padding-top: 28px;margin-bottom: 32px;font-weight: 400;    font-size: 40px;}
 .count-happy h2:after {
     position: absolute;
     content: " ";
@@ -776,6 +776,7 @@ td{text-align: left; font-weight: normal;}
     width: 23.5%;
     margin-right: 2%;
 }
+.three_cards_component .slick-slide{margin: 0 15px;}
 .single-person:last-child{margin-right: 0;}
 .single-person .person-image {      padding: 30px;  position: relative;    margin-bottom: 50px;    border-radius: 50%;    border: 4px dashed transparent;    transition: padding .3s;}
 .single-person .person-image img {
@@ -2200,9 +2201,8 @@ h2 {}
     /*padding: 140px 0;*/
     text-align: center;
     border-radius: 50%/0 0 50px 50px;
-    background-image: url(https://scontent.famd15-1.fna.fbcdn.net/v/t1.6435-9/59087127_2418278898204988_7334580041528901632_n.jpg?stp=dst-jpg_s960x960&_nc_cat=104&ccb=1-7&_nc_sid=e3f864&_nc_ohc=WqLqAWqSDyIAX9ty_vE&_nc_ht=scontent.famd15-1.fna&oh=00_AT9q53C2INIrp5sJ6AUEVYNu9krDUkgnYbTeqbLTPbZBSA&oe=62BDE5AA);
+    background-image: url(https://scontent.fjga1-1.fna.fbcdn.net/v/t1.18169-9/11008384_916126885086871_5968979081822305133_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=174925&_nc_ohc=tnVCn08hS6EAX_zWytI&tn=7MALCz90GHMMwRmM&_nc_ht=scontent.fjga1-1.fna&oh=00_AT85VRQsJBnjWLQhOPxk5YoQmrk5PWb_1AEySrTAW56uAg&oe=62C05CFC);
     background-size: cover;
-    background-position: center;
     position: relative;
     overflow: hidden;
     /* margin: 0; */
@@ -2273,16 +2273,19 @@ h2 {}
 }
 .include-slider .include-contant {box-shadow: 0 0px 16px 5px rgb(31 125 185 / 22%);}
 .include-contant {
-    width: 23.12%;
+    /*width: 23.12%;*/
     text-align: center;
-    margin-right: 2.5%;
+    /*margin-right: 2.5%;*/
         
     border-radius: 20px;
 }
+
+.client_component .slick-slide .include-contant{margin: 0 15px;}
+.client_component  .slick-dots li button,.client_component  .slick-prev:before,.client_component  .slick-next:before{    color: #f22e6a;}
 .include-contant .include-data{
     padding: 0 15px 15px;
 }
-.include-contant:last-child{margin-right: 0;margin-bottom: 0;}
+/*.include-contant:last-child{margin-right: 0;margin-bottom: 0;}*/
 .include-contant h4{ font-weight: 300; margin-bottom: 8px;}
 .include-contant img {
     width: 100%;
@@ -2293,7 +2296,16 @@ h2 {}
     border-radius: 20px 20px 0 0;
 }
 .include-contant p{ font-size: 16px;margin: 0;}
-
+.client_component .include-contant{border-radius: 0 40px;height: 100px;}
+.client_component .include-contant img {
+    width: 100%;
+    margin-bottom: 15px;
+    height: 100px;
+     max-height: unset; 
+     min-height: unset;
+    object-fit: cover;
+    border-radius: 0 40px;
+}
 .progress-right{width: 25%;}
 .progress-left{width: 62%;}
 .progress-right p{ color: #717171; font-size: 16px;}
@@ -2557,7 +2569,7 @@ h2 {}
 }
 @media only screen and (max-width: 991px){
     .h2, h2 {    font-size: 38px;}
-    .include-contant {    width: 31.66%; margin-bottom: 30px;}
+    .include-contant {     margin-bottom: 30px;}
     .three_cards_component .include-contant:nth-child(2n),.include-contant:nth-child(3n){margin-right: 0;}
     .three_cards_component .include-contant {    width: 48%;    text-align: center;    margin-right: 4%;}
     .count-happy i {    font-size: 3rem;}
@@ -2627,7 +2639,7 @@ h2 {}
     .newsletter-one .newsletter-form, .newsletter-one .newsletter-img,.form-group.right, .form-group.left,.creative-image,.creative-contant {    width: 100%;}
     #contact-form{max-width: 100%;}
     .three_cards_component .include-contant:nth-last-child(2),.creative-contant{margin-bottom: 30px;}
-    .include-contant:nth-child(3n),.include-contant {    width: 48%;    margin-right: 4%;}
+    .include-contant:nth-child(3n),.include-contant {    margin-right: 4%;}
     .include-contant:nth-child(2n){margin-right: 0;}
     .include-contant:nth-last-child(2) {margin-bottom: 0;}
     .include-contant img {    margin-bottom: 20px;    min-height: 350px;    max-height: 350px; }
@@ -2719,6 +2731,7 @@ h2 {}
   
 }
 @media only screen and (max-width: 480px){
+    .client_component .slick-slide .include-contant{margin: 0 50px;}
     .general-heading {    margin-bottom: 30px;text-align: center;}
     .general-heading h2 {
     font-size: 32px;
@@ -2734,7 +2747,7 @@ h2 {}
     .center-menu {    padding: 40px 0 0;}
     /*.banner-section {    padding: 45px 0;}*/
     .creative-image img {        min-height: 350px;    max-height: 350px;}
-    .include-contant:nth-child(3n), .include-contant {    width: 100%;    margin-right: 0;}
+    .include-contant:nth-child(3n), .include-contant {    margin-right: 0;}
     .include-contant:nth-last-child(2) {    margin-bottom: 30px;}
     .count-happy h2:after {    left: 36%;}
     #contact-form{padding: 34px 20px;    }
